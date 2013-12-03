@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ttt</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<!--%= yield %-->
+<div class="container">
+	<a class="likeabutton" href="#/new">New</a>
+</div>
+<div id="main" class="container">
+	<!--form method="get" action="#/new">
+	   <button style="margin: 10px 0" class="newStudent col-xs-2">New</button>
+	</form-->
+	
+</div>
+<%= javascript_include_tag "application" %>
+</body>
+</html>
